@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="showaction" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">true</item>
+        <item name="actionBarTabStyle">@null</item>
+
+    </style>
+
+
+  <!--  <style name="ActionbarTab">
+        <item name="background">@null</item>
+        <item name="layout_width">match_parent</item>
+        <item name="minWidth">80dip</item>
+    </style>-->
+
+
+    <style name="test" parent="@android:style/Theme.Holo">
+        <item name="actionDropDownStyle">@null</item>
+        <item name="actionOverflowMenuStyle">@null</item>
+        <item name="actionButtonStyle">@null</item>
+        <item name="actionOverflowButtonStyle">@null</item>
+        <item name="actionModeBackground">@null</item>
+        <item name="actionModeSplitBackground">@null</item>
+        <item name="actionModeCloseDrawable">@null</item>
+        <item name="actionBarTabStyle">@null</item>
+        <item name="actionBarTabBarStyle">@null</item>
+        <item name="actionBarTabTextStyle">@null</item>
+        <item name="actionBarStyle">@null</item>
+        <item name="actionModeStyle">@null</item>
+        <item name="actionModeCloseButtonStyle">@null</item>
+        <!--<item name="actionBarSize">@dimen/action_bar_default_height</item>-->
+        <item name="actionModePopupWindowStyle">@null</item>
+     <!--   <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarPopupTheme">@null</item>
+        <item name="actionBarTheme">@null</item>-->
+
+        <item name="actionModeCutDrawable">@null</item>
+        <item name="actionModeCopyDrawable">@null</item>
+        <item name="actionModePasteDrawable">@null</item>
+        <item name="actionModeSelectAllDrawable">@null</item>
+        <item name="actionModeShareDrawable">@null</item>
+        <item name="actionModeFindDrawable">@null</item>
+        <item name="actionModeWebSearchDrawable">@null</item>
+
+    </style>
+
+</resources>
